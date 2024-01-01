@@ -1,0 +1,29 @@
+.header{
+    min-height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 100px;
+    background-color: rgb(215, 245, 245);
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+.header-mid a{  
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+.logout-btn{
+    background-color: rgb(215, 245, 245);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

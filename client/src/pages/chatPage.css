@@ -1,0 +1,13 @@
+.chatMenu {
+  margin: 5px 100px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  border-radius: 10px;
+}
+
+.chatMenuInput {
+  width: 90%;
+  padding: 10px 10px;
+  border: none;
+  border-bottom: 1px solid gray;
+}

@@ -1,0 +1,19 @@
+.inputform{
+    display: flex;
+    flex-direction: column;
+} 
+.inputfield{
+    padding: 10px;
+    width: 280px;
+    margin: 10px 0;
+}
+
+.errormessage{
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
+.inputfield:invalid[focused='true']~.errormessage{
+    display: block;
+}
